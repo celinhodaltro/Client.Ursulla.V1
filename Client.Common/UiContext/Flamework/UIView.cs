@@ -54,7 +54,7 @@ public class UIView
     /// This is without any padding added by the skin / Padding property.
     /// It does not include margins.
     /// </summary>
-    public Rectangle Bounds;
+    public Microsoft.Xna.Framework.Rectangle Bounds;
 
     /// <summary>
     /// The position part of the bounds.
@@ -99,7 +99,7 @@ public class UIView
         get
         {
             Margin fromSkin = SkinPadding;
-            return new Rectangle(
+            return new  Rectangle(
                 fromSkin.Left + Padding.Left,
                 fromSkin.Top + Padding.Top,
                 Bounds.Width - fromSkin.TotalWidth - Padding.TotalWidth,
