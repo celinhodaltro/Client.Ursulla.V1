@@ -7,4 +7,24 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Client.Common\Client.Common.csproj" />
+    <ProjectReference Include="..\Client.Data\Client.Data.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Include="StandardFont.spritefont">
+      <Name>StandardFont</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DefaultSkin.bmp">
+      <Name>DefaultSkin</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+
 </Project>
