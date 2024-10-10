@@ -10,7 +10,6 @@ using Microsoft.Xna.Framework.Input;
 using Microsoft.Xna.Framework.Media;
 using Microsoft.Xna.Framework.Design;
 using Client.Common;
-using System.Drawing;
 using System.Reflection.Metadata;
 using System.Reflection;
 
